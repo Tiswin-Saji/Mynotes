@@ -56,3 +56,17 @@ Loading the Kali Linux VirtualBox image File.
 3.Open the folder and you will find 2 files types, 1.VirtualBox Machine Defination and 2.Virtual Disk Image File.You have to double click on 'VirtualBox Machine Defination' Type file.
 4. Oracle VirtualBox opens, Click on 'Start' to Turn on the Virtual Machine. Its going to take a when u are booting it for the First time.
 5. After sucessful booting, Enter Username and password as 'kali'.
+
+
+
+DAY 3
+
+Linux provides a powerful set of commands to manage files and directories efficiently. To begin with, you can navigate the file system using commands like pwd, which prints the current working directory, and cd, which is used to change directories. For instance, cd Documents moves into the Documents folder, cd .. moves up to the parent directory, and simply typing cd brings you back to your home directory.
+
+To view files and directories in the current location, you can use ls. Adding options enhances its functionality: ls -l shows detailed information including permissions and file sizes, ls -a reveals hidden files, ls -lh presents human-readable sizes, and ls -R lists contents recursively. Creating files and directories is also straightforward. The touch command is used to create empty files (e.g., touch file.txt), while mkdir creates new directories. For creating nested directories in one go, mkdir -p dir1/dir2 is used.
+
+Copying and moving files is handled with cp and mv. For example, cp file.txt backup.txt makes a copy of a file, and cp -r dir1 dir2 copies an entire directory recursively. The mv command is used to move or rename files and directories. So, mv old.txt new.txt renames a file, and mv file.txt /home/user/docs moves it to another location.
+
+To delete files, rm is used. A simple rm file.txt deletes a file, while rm -r folder/ removes a directory and all its contents. To remove an empty directory, rmdir is used. If you want to delete files without confirmation prompts, rm -f will force the deletion. Additionally, the stat command displays detailed file information such as size and timestamps, while file identifies the type of file based on its content.
+
+Using these commands, users can fully manage their file system from the terminal with speed and precision. Remember, using the Tab key for auto-completion and adding options to commands (like -l, -r, or -a) can save a lot of time and reduce typing errors.
